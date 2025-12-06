@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Show/Hide Sections</h1>
+    
+    <div id="bulkControls">
+        <button class="bulk" id="showall">Show All</button>
+        <button class="bulk" id="hideall">Hide All</button>
+    </div>
+
+    <div class="counter">
+        <p>Sections Visible :</p>    
+        <p id="count">0</p>
+    </div>
+
+    <div class="main">
+        <div class="sections">
+            <button class="btn" id="ShowBio">Show Bio</button>
+            <div>
+                <p class="content-section" id="bio">I am a dedicated Engineering Student passionate about solving real-world problems through code. 
+                 With a strong foundation in Computer Science, I am currently focused on mastering Web Development 
+                 and DSA in C++. My goal is to leverage technology to build innovative solutions and contribute to 
+                 the startup ecosystem.</p>
+            </div>
+        </div>
+
+        <div class="sections">
+            <button class="btn" id="ShowSkills">Show Skills</button>
+            <div>
+                <ul class="content-section" id="skills">
+                    <li><strong>Web Development:</strong> HTML5, CSS3, JavaScript</li>
+                     <li><strong>Programming:</strong> Python, C++</li>
+                    <li><strong>Frameworks:</strong> React, Django</li>
+                 </ul>
+            </div>
+        </div>
+
+        <div class="sections">
+            <button class="btn" id="ShowHobbies">Show Hobbies</button>
+            <div>
+                 <ul class="content-section" id="hobbies">
+                    <li>🎨<strong>Design:</strong> Exploring interior design trends.</li>
+                    <li>💻 <strong>Coding:</strong> Building side projects and web apps.</li>
+                    <li>📚 <strong>Reading:</strong> Tech blogs and startup case studies.</li>
+                    <li>🎮 <strong>Gaming:</strong> Strategy and puzzle games.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
