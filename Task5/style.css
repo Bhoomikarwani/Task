@@ -58,8 +58,10 @@ h1{
     border:2px solid yellow;
     background-color: yellow;
 }
-.tansition{
-    font-size: 30px;
-    padding:60px ;
-    border-color: goldenrod;
+.winner{
+    transform: scale(1.2); /* Makes the button bigger */
+    box-shadow: 0 4px 15px gold; /* Adds a glow */
+    border: 2px solid gold;
+    font-weight: bold;
+
 }
