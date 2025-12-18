@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div id="box">
+    <h1>Dropdown Message Selector</h1>
+
+    <label for="msg-select">Choose a message type:</label><br>
+    <select id="msg-select">
+        <option value="">--Select one--</option>
+        <option value="success">Success</option>
+        <option value="warning">Warning</option>
+        <option value="error">Error</option>
+        <option value="info">Info</option>
+    </select>
+
+    <p>Message shown : <span id="counter">0</span></p>
+    <button id="clear">Clear</button>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
