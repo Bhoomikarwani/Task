@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 9</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main class="main">
+    <h1>Font Size Controller</h1>
+    <p class="currentSize">Current size: <span id="currentSize">16</span>px</p>
+
+    <div class="adjust">
+        <button class="adjustbtn" id="smallerbtn">Smaller (-)</button>
+        <input type="range" id="sizeSlider" min="10" max="40" value="16">
+        <button class="adjustbtn" id="largerbtn">Larger(+)</button>
+    </div>
+
+    <div class="preset">
+        <span>Presets : </span>
+        <button class="presetbtn" data-size="12">Small (12px)</button>
+        <button class="presetbtn" data-size="16">Medium (16px)</button>
+        <button class="presetbtn" data-size="24">Large (24px)</button>
+    </div>
+
+    <button id="resetbtn">Returns to default size</button>
+
+    <div>
+        <p class="para" id="para"> One sunny morning, Mia discovered a hidden path in her backyard.
+            Curious, she followed it and found herself in an enchanted forest.
+            The trees sparkled with magic, and the animals could talk.
+            A friendly fox named Felix greeted her. He guided Mia to the Fairy Queen, who needed help finding a losttreasure.
+            Together, they ventured through the forest, solving riddles and overcoming obstacles.
+            Mia used her bravery and kindness to succeed. When she found the treasure, the Fairy Queen granted her a
+            wish
+        </p>
+    </div>
+</main>
+    <script src="./script.js"></script>
+</body>
+</html>

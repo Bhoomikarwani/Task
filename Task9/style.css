@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(248, 178, 248,0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /*better centreing method*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+.main{
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px  gray;
+    border: 2px solid white;
+    width: 500px;
+}
+h1{
+    margin: 10px 0px;
+}
+.currentSize{
+    font-weight: bold;
+    margin: 10px 0px;
+    display: block; /* Ensures it sits on its own line */
+    color: #555;
+}
+.para{
+    border: 2px dotted grey;
+    padding: 15px;
+    margin: 15px 0px;
+    background-color: #fafafa;
+    min-height: 100px; /* Ensures box doesn't collapse if text is small */
+    transition: font-size 1s ease;
+}
+.adjust{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    gap: 15px;
+}
+input[type="range"]{
+    width: 150px;
+    cursor: pointer;
+}
+.adjustbtn{
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: rgb(244, 227, 192);
+    border: 2px solid rgb(244, 227, 192);
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    cursor: pointer;
+    transition: rgb(237, 157, 157) 0.2s;
+}
+.adjustbtn:hover{
+    background-color: rgb(230, 210, 170);
+}
+.adjustbtn:disabled{
+    background-color: #cf4a4a;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.preset {
+    margin-bottom: 20px;
+}
+.preset span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.presetbtn{
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #e0f7fa;
+    border: 1px solid #b2ebf2;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #006064;
+    transition: all 0.2s;
+}
+.presetbtn:hover {
+    background-color: #b2ebf2;
+}
+#resetbtn{
+    padding: 8px 16px;
+    background-color: #ffebee;
+    border: 1px solid #ffcdd2;
+    color: #c62828;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: rgb(226, 199, 150) 0.2s;
+}
