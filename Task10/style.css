@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.5s ease;
+    background-color: #f0f0f0;
+}
+.container{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    height: 60vh;
+    border: 2px;
+    box-shadow:5px 5px 10px gray;
+    border-radius: 20px;
+    z-index: 2;
+}
+h1{
+    margin: 20px 0px;
+    color: rgb(76, 76, 76);
+}
+.colors{
+    margin: 20px 0px;
+    
+}
+.color{
+    padding: 5px 6px;
+    border-radius: 10px;
+    font-size: 17px;
+    color: rgb(76, 76, 76);
+    margin-left: 10px;
+}
+#blue{
+    background-color: rgb(129, 129, 247);
+    border: 2px solid rgb(129, 129, 247);
+}
+#blue:hover{
+    background-color: white;
+    color: rgb(74, 74, 254);
+    font-weight: bold;
+    box-shadow: inset 2px  2px 5px rgb(129, 129, 247);
+    cursor: pointer;
+    transition: 1s ease;
+    transform: scale(1.2);
+}
+#orange{
+   background-color: rgb(252, 155, 52);
+   border: 2px solid rgb(252, 155, 52); 
+}
+#orange:hover{
+    background-color: white;
+    color: rgb(250, 143, 11);
+    font-weight: bold;
+    box-shadow: inset 2px  2px 5px rgb(253, 188, 46);
+    cursor: pointer;
+    transition: 0.5s ease;
+    transform: scale(1.2);
+}
+#pink{
+   background-color: rgb(255, 192, 203);
+    border: 2px solid pink;
+}
+#pink:hover{
+    background-color: white;
+    color:rgb(250, 52, 85);
+    font-weight: bold;
+    box-shadow: inset 2px  2px 5px pink;
+    cursor: pointer;
+    transition: 1s ease;
+    transform: scale(1.1);
+}
+#gold{
+   background-color: rgb(255, 215, 0);
+    border: 2px solid gold;
+}
+#gold:hover{
+    background-color: white;
+    color:gold;
+    font-weight: bold;
+    box-shadow: inset 2px  2px 5px gold;
+    cursor: pointer;
+    transition: 1s ease;
+    transform: scale(1.1);
+}
+#Purple{
+   background-color: rgb(180, 132, 180);
+    border: 2px solid rgb(180, 132, 180);
+}
+#Purple:hover{
+    background-color: white;
+    color:rgb(180, 132, 180);
+    font-weight: bold;
+    box-shadow: inset 2px  2px 5px rgb(180, 132, 180);
+    cursor: pointer;
+    transition: 1s ease;
+    transform: scale(1.1);
+}
+#green{
+   background-color:rgb(92, 248, 125) ;
+    border: 2px solid rgb(92, 248, 125) ;
+}
+#green:hover{
+    background-color: white;
+    color:rgb(92, 248, 125);
+    font-weight: bold;
+    box-shadow: inset 2px  2px 5px rgb(92, 248, 125);
+    cursor: pointer;
+    transition: 1s ease;
+    transform: scale(1.1);
+}
+.action{
+     margin: 40px 0px;
+     gap: 20px;
+     text-wrap: wrap;
+     
+}
+.actionbtn{
+    padding: 10px 7px;
+    background-color: rgb(52, 51, 51);
+    color: white;
+    border-radius:10px;
+}
+.hide{
+    display: none;
+}

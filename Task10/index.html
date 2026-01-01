@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 10</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Background Color Changer</h1>
+  <div class="colors">
+    <button class="color" id="blue" data-color="rgb(129, 129, 247)" data-name="Blue">Blue</button>
+    <button class="color" id="orange" data-color="rgb(252, 155, 52)" data-name="Orange">Orange</button>
+    <button class="color" id="pink" data-color="pink" data-name="Pink">Pink</button>
+    <button class="color" id="gold" data-color="gold" data-name="Gold">Gold</button>
+    <button class="color" id="Purple" data-color="rgb(180, 132, 180)" data-name="Purple">Purple</button>
+    <button class="color" id="green" data-color="rgb(92, 248, 125)" data-name="Green">Green</button>
+  </div>
+
+  <div class="action">
+  <button class="actionbtn" id="random-color">Pick Random Color</button>
+  <button class="actionbtn" id="favorite">Save as Favorite</button>
+  <button class="actionbtn" id="applyfavorite">Apply Favorite</button>
+  </div>
+  <div class="details">
+  <p class="info">Current Color : <span id="current-color">None</span></p>
+  <p class="info">Last color : <span id="last-color">None</span></p>
+  <p class="info">Saved Color : <span id="saved-color">None</span></p>
+  </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
