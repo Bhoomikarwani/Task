@@ -6,11 +6,17 @@
 body{
     text-align: center;
 }
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(69, 69, 69);
+    font-size: 40px;
+    margin-top: 20px;
+}
 .buttons{
     display: flex;
     text-align: center;
     justify-content: center;
-    margin: 100px;
+    margin: 40px;
     padding-top: 10px ;
     /*justify-content: space-evenly;*/
 }
