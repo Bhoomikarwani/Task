@@ -4,22 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>KBC fan page</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styleA.css">
 </head>
 <body>
+ <main>
     <navbar>
-        <div>
-          <img src="./assets/kbc.png" alt="image">
-        </div> 
-        <div>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./q&a.html">Practice Q&A</a></li>
-                <li><button id="registerBtn">REGISTER NOW <div>></div></button></li>
-            </ul>
-        </div>
-      </navbar> 
-      <script src="./script.js"></script>
+            <div class="nav">
+                <div id="logo">
+                    <img src="./assets/kbc.png" alt="image" class="logo">
+                </div>
+                <div id="links">
+                    <ul class="pages">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./q&a.html">Practice Q&A</a></li>
+                        <li><button id="registerBtn">REGISTER NOW<div class="circle">></div></button></li>
+                    </ul>
+                </div>
+            </div>
+    </navbar>
+    <section>
+        <h2 id="about">About the Show</h2>
+        <div id="container">
+            <div class="box">
+                <img src="./assets/icon-tvs.png" class="icons">
+                <h4>The Format</h4>
+                <p>Contestants answer a series of multiple-choice questions to win large cash prizes up to 7 Crore. </p>
+            </div>
+            <div class="box">
+                <img src="./assets/icon-lifeline.png" class="icons">
+                <h4>Lifelines</h4>
+                <p>Stuck on a question ? Use 50:50 , Auidence Poll or Video Call a friend to survive. </p>
+            </div>
+            <div class="box">
+                <img src="./assets/man-icon.png" class="icons">
+                <h4>The Host</h4>
+                <p>Hosted by the legendary Mr. Amitabh Bachchan , guiding you through the toughest questions.</p>
+            </div>
+        </div>    
+    </section>    
+ </main>
+ <script src="./script.js"></script>
 </body>
 </html>
