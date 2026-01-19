@@ -7,29 +7,65 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+ <main>
     <header>
-      <navbar>
+        <navbar>
+            <div class="nav">
+                <div id="logo">
+                    <img src="./assets/kbc.png" alt="image" class="logo">
+                </div>
+                <div id="links">
+                    <ul class="pages">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./q&a.html">Practice Q&A</a></li>
+                        <li><button id="registerBtn">REGISTER NOW<div class="circle">></div></button></li>
+                    </ul>
+                </div>
+            </div>
+        </navbar>
+
+        <section id="home">
+            <div class="hero-content">
+                <h1>Kaun Banega Crorepati</h1>
+                <p>Hindi  |  22 Seasons  |  257 Episodes  |  Game Show</p>
+                <button id="apply-btn">Apply for Season 16</button>
+            </div>
+        </section>
+    </header>
+
+    <section class="episodes">
         <div>
-          <img src="./assets/kbc.png" alt="image">
-        </div> 
+            <div>
+                <h2>TRENDING <span class="now">NOW</span></h2>
+            </div>
+            <div>
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/3Lgr_IwHl_w?si=bac5fGiWMfd48jwq"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/e9DLKy3hyEA?si=vlVrNKVfrZEutaBx"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
         <div>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./q&a.html">Practice Q&A</a></li>
-                <li><button id="registerBtn">REGISTER NOW <div>></div></button></li>
-            </ul>
+            <h3>
+                Episodes
+            </h3>
+            <div>
+                <button>KBC 2024</button>
+                <button>KBC 2025</button>
+            </div>
+            <a href="">View All Episodes</a>
         </div>
-      </navbar> 
-      
-      <section id="home">
-        <div class="hero-content">
-            <h1>Kaun Banega Crorepati</h1>
-            <p>Hindi | 22 Seasons | 257 Episodes | Game Show</p>
-            <button id="apply-btn">Apply for Season 16</button>
-        </div>
-      </section>  
-    </header>  
-    <script src="./script.js"></script>
+    </section>
+ </main>
+ <script src="./script.js"></script>
 </body>
 </html>
