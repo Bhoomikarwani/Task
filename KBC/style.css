@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  color: white;
+}
+#logo{
+   width:72px;
+   height: 72px;
+   border: 2px solid black;
+  margin-left:30px ;
+}
+.logo{
+  width:70px;
+  height: 70px;
+ 
+}
+#links{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  margin-right:30px ;
+  max-width: 1000px;
+  justify-content: space-evenly;
+  
+}
+.pages{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.pages li{
+  margin:0 20px;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family:'Arial Black', sans-serif;
+  padding: 0px 10px;
+}
+.pages li > #registerBtn{
+  width: 150px;
+  padding: 7px 0px;
+  display: flex;
+  justify-content: center;
+  border-radius:20px ;
+  gap: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: white;
+  border: none;
+  background: linear-gradient(to right , #ff4131, #ff8c42);
+}
+.pages li > #registerBtn:hover{
+  transition: 0.5s ease;
+  transform: scale(1.05);
+}
+.pages a{
+  text-decoration: none;
+  color:white;
+}
+
+.nav{
+  width: 100%;
+  height: 100px;
+/*  margin-top: 20px;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+ 
+  position: fixed;
+  
+}
+header{
+  height:780px;
+  background-color: #000033;
+  background-repeat: no-repeat;
+  background-image:linear-gradient(to right , #000000 20%, rgba(0, 0, 0, 0) 80%),
+                   url(./assets/amithab.png);
+  background-position: right center;
+
+  
+}
+main{
+  background: linear-gradient(to right, #000000, #2c219a);
+}
+
+.hero-content{
+    position: absolute; /* Allows text to sit over the background image */
+    top: 50%;           /* Positions it vertically */
+    left: 20%;           /* Moves it away from the left edge */
+    transform: translateY(-50%); 
+    max-width: 600px;   /* Prevents the text from stretching too far across Amitabh */
+    color: white;       /* Sets the base text color */
+    text-align: center;
+   
+}
+.hero-content h1 {
+    font-size: 5rem;      /* Makes the title large and bold */
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    font-family: 'Arial Black', sans-serif; /* Use a thick font */
+    text-shadow: 2px 4px 5px #efebebf9;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    opacity: 0.9;         /* Slightly fades the sub-text */
+}
+#apply-btn {
+    background-color: #f1c40f; /* The bright yellow from the image */
+    color: black;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;      /* Rounded corners */
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#apply-btn:hover {
+    transform: scale(1.05);  /* Small pop effect when hovering */
+    background-color: transparent;
+    border: 3px solid #f1c40f;
+    color:yellow;
+}
+
