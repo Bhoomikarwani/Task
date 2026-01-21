@@ -15,6 +15,8 @@ body{
   width:70px;
   height: 70px;
  
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 5px rgba(240, 216, 81,0.7);
 }
 #links{
   
@@ -34,10 +36,10 @@ body{
 }
 .pages li{
   margin:0 20px;
-  font-weight: bold;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family:'Arial Black', sans-serif;
   padding: 0px 10px;
+  
 }
 .pages li > #registerBtn{
   width: 150px;
