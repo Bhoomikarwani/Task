@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styleQ.css">
 </head>
 <body>
+  <main>
     <navbar>
             <div class="nav">
                 <div id="logo">
@@ -14,16 +15,73 @@
                 </div>
                 <div id="links">
                     <ul class="pages">
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./about.html">About</a></li>
-                        <li><a href="./q&a.html">Practice Q&A</a></li>
-                        <li><button id="registerBtn">REGISTER NOW<div class="circle">></div></button></li>
+                        <li><a href="./index.html">Home</a></li>  
+                        <li><a href="./about.html">About</a></li>  
+                        <li><a href="./q&a.html">Already Registered</a></li>  
+                        <li><a href="./register.html"><button id="registerBtn">REGISTER NOW</button></a></li>
                     </ul>
                 </div>
             </div>
     </navbar>
+    <section>
+        <h2 class="heading">Practice Questons</h2>
+        <h4 class="phrase">Test your knowlegde before you enter the hot seat</h4>
 
-    
-    <script src="./script.js"></script>
+        <div class="questions">
+            <div class="ques">
+                <p>1. Which of these is the national flower of the India ? </p>
+                <select class="choose" id="select1" data-correct="lotus">
+                    <option value="">--Select one--</option>
+                    <option value="lotus">Lotus</option>
+                    <option value="jasmine">Jasmine</option>
+                    <option value="sunflower">Sunflower</option>
+                    <option value="rose">Rose</option>
+                </select>
+                <div class="msg"></div>
+                <button id="1" data-number="1" class="btn tabs">Show Answer</button>
+                <div class="show-ans show">
+                    <p class="ans">Correct option : Lotus</p>
+                    <button class="hide-btn tabs">Hide Answer</button>
+                </div>
+            </div>
+
+           <div class="ques">
+                <p>2. In the Mahabharata, who was the father of Pandavas ? </p>
+                <select class="choose" id="select2" data-correct="Pandu">
+                    <option value="">--Select one--</option>
+                    <option value="Bhishma">Bhishma</option>
+                    <option value="Shantanu">Shantanu</option>
+                    <option value="Pandu">Pandu</option>
+                    <option value="Dhritarashtra">Dhritarashtra</option>
+                </select>
+                <div class="msg"></div>
+                <button id="2" data-number="2" class="btn tabs">Show Answer</button>
+                <div class="show-ans show">
+                    <p class="ans">Correct option : Pandu</p>
+                    <button class="hide-btn tabs">Hide Answer</button>
+                </div>
+            </div>
+
+            <div class="ques">
+                <p>3. Who was the first Indian woman to win an Olympic Medal ? </p>
+                <select class="choose" id="select3" data-correct="Karnam Malleswari">
+                    <option value="">--Select one--</option>
+                    <option value="Mary Kom">Mary Kom</option>
+                    <option value="Sania Mirza">Sania Mirza</option>
+                    <option value="P.T. Usha">P.T. Usha</option>
+                    <option value="Karnam Malleswari">Karnam Malleswari</option>
+                </select>
+                <div class="msg"></div>
+                <button id="3" data-number="3" class="btn tabs">Show Answer</button>
+                <div class="show-ans show">
+                    <p class="ans">Correct option : Karnam Malleswari</p>
+                    <button class="hide-btn tabs">Hide Answer</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+  </main>  
+    <script src="./scriptQ.js"></script>
 </body>
 </html>

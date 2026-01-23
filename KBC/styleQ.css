@@ -1,20 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-}
-body{
-  color: white;
+    font-family: Arial, sans-serif;
 }
 #logo{
    width:72px;
    height: 72px;
-   border: 2px solid black;
-  margin-left:30px ;
+   margin-left:30px ;
 }
 .logo{
   width:70px;
   height: 70px;
  
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 5px rgba(240, 216, 81,0.7);
 }
 #links{
   
@@ -34,12 +33,12 @@ body{
 }
 .pages li{
   margin:0 20px;
-  font-weight: bold;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family:'Arial Black', sans-serif;
   padding: 0px 10px;
+  
 }
-.pages li > #registerBtn{
+.pages li >a> #registerBtn{
   width: 150px;
   padding: 7px 0px;
   display: flex;
@@ -59,7 +58,13 @@ body{
 }
 .pages a{
   text-decoration: none;
-  color:black;
+  color:white;
+}
+.pages a:hover{
+  transition: 0.4s;
+  color: #f4fd04;
+  cursor: pointer;
+  text-shadow:0px 0px 2px 2px #f4fd04;
 }
 
 .nav{
@@ -69,8 +74,98 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: transparent;
- 
+  background: linear-gradient(to right, #000000, #2c219a,#000000);
   position: fixed;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+section{
+  margin-top: 100px;
+  background: linear-gradient(to right, #000000, #2c219a,#000000);
+}
+.heading{
+  font-family: 'Arial Black', sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 15px;
+    /* Gradient Text */
+    background: linear-gradient(to bottom, #FFD700, #B8860B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* Soft Gold Glow */
+    filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.4));            
+}
+.phrase{
+  text-align: center;
+  color: antiquewhite;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.questions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px; 
+  gap: 30px;
+
+}
+.ques{
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255,0.3);
+  color: #ffffff;
+  border: 2px solid white;
+  padding: 15px 100px 15px 20px;
+  width: 800px;
+  min-width: 200px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.choose{
+  margin-top: 10px;
+  padding: 2px 5px;
+  background-color: whitesmoke;
+  color:black;
+  border-radius: 10px;
+}
+.tabs{
+  background-color: rgb(249, 210, 16);
+  border: none;
+  padding: 2px 4px;
+  margin-left: 5px;
+   margin-top: 10px;
+  width: 200px;
   
+}
+.btn{
+  margin-top: 10px;
+  width: 200px;
+}
+#msg{
+  max-width: 150px;
+  margin-top: 10px;
+}
+.ans{
+  width: 200px;
+  text-align: center;
+}
+.correct{
+  background-color: green;
+  border: 2px solid green;
+  border-radius: 5px;
+  color: white;
+}
+.wrong{
+   background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: white;
+}
+.show{
+  visibility: hidden;
 }
