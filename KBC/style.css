@@ -131,7 +131,9 @@ main{
     cursor: pointer;
     transition: transform 0.2s;
 }
-
+#apply-btn:active{
+  transition: all 2s ease;
+}
 #apply-btn:hover {
     transform: scale(1.05);  /* Small pop effect when hovering */
     background-color: transparent;
